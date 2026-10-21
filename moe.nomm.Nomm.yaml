@@ -1,6 +1,6 @@
 id: moe.nomm.Nomm
 runtime: org.gnome.Platform
-runtime-version: '50'
+runtime-version: '51'
 sdk: org.gnome.Sdk
 command: nomm
 finish-args:
@@ -74,8 +74,8 @@ modules:
     sources:
       - type: archive
         archive-type: tar-gzip
-        url: https://api.github.com/repos/NOMM-Team/nomm-app/tarball/0.14.1
-        sha256: 74923155fb0ee7de3d969bf6630748cdda5baba67c0ecb8696e45df261aaf385
+        url: https://api.github.com/repos/NOMM-Team/nomm-app/tarball/0.14.2
+        sha256: a00ab5f0affbb0f206c68f17901e91e6ff413502e3ed9d207353ce8a8bccf57a
         x-checker-data:
           type: json
           url: https://api.github.com/repos/nomm-team/nomm-app/releases/latest
