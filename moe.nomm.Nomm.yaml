@@ -74,8 +74,8 @@ modules:
     sources:
       - type: archive
         archive-type: tar-gzip
-        url: https://api.github.com/repos/NOMM-Team/nomm-app/tarball/0.14.3
-        sha256: 948dfb432614a52470f17e182433c2f0c67aa40c0c53f5c8e9807a517fa6a1a2
+        url: https://api.github.com/repos/NOMM-Team/nomm-app/tarball/0.15.0
+        sha256: 88c5b6d3b3fb97f1c183012b604973ba8053b8a2688e9f6789baf873207eec07
         x-checker-data:
           type: json
           url: https://api.github.com/repos/nomm-team/nomm-app/releases/latest
